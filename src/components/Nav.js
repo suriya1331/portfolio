@@ -21,7 +21,7 @@ const Nav = () => {
             <h1 className='heading-1'>hello!,</h1>
             <div className='cursor-box'>
             <p className='word-1'>I'M </p>
-            <p className='word-2'><span className='span-1'>SURIYA NARAYANAN 1</span>
+            <p className='word-2'><span className='span-1'>SURIYA NARAYANAN 123</span>
             <p className='word-3'><span className='span-2'>SURIYA NARAYANAN</span></p>
             </p>
             </div>
