@@ -17,7 +17,7 @@ const Nav = () => {
         <main className='container-1' id='home'>
           
           <section className='section-1'>
-            <img className='imgs-1' src= 'Images/computer.png' alt='home' height="200px" width="200px"/>
+            <img className='img-1' src='Images/computer.png' alt='home' height="200px" width="200px"/>
             <h1 className='heading-1'>hello!,</h1>
             <div className='cursor-box'>
             <p className='word-1'>I'M </p>

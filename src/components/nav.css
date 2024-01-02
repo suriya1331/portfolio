@@ -156,7 +156,7 @@ html,body{
     letter-spacing: 2px;
     color: plum;
 }
-.imgs-1{
+.img-1{
     position: absolute;
     top: 150px;
     right: 100px;
@@ -394,6 +394,46 @@ h3{
     color: white;
 }
   /* small screen -- 425px */
+  @media screen and (min-width:320px)and (max-width:424px) {
+    .appbar{
+        display: none;
+    }
+    .container-1{
+        background-color: rgb(46,0,30); 
+        min-height: 100vh;
+        min-width: 800px;
+    }
+    .img-1{
+        display: none;
+    }
+    .word-3{
+        display: block;
+    }
+    .span-1{
+        display: none;
+    }
+    .span-2{
+        display: block;
+    }
+    .container-2{
+        min-height: 150vh;
+        min-width: 800px;
+    }
+    .img-2{
+        display: none;
+    }
+    .container-3{
+        min-height: 180vh;
+        min-width: 800px;
+    }
+    .heading-3{
+        left: 250px;
+    }
+    .container-4{
+        min-height: 200vh;
+        min-width: 800px;
+    }
+  }
  @media screen and (min-width:425px) and (max-width:767px) {
     .appbar{
         display: none;
